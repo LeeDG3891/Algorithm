@@ -15,6 +15,4 @@ for i in range(m):
             num += 1
 
 for i in arr:
-    for j in i:
-        print(j, end = ' ')
-    print()
+    print(*i)
